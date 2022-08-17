@@ -5558,6 +5558,7 @@ textarea:focus {
   background-color: #00ff00;
   width: 1px;
   top: 7px;
+  display: none;
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .footer-menu-social .footer-social:before {
