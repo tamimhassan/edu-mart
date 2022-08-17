@@ -1768,16 +1768,16 @@ textarea:focus {
 }
 
 .logo img {
-  height: 55px;
+  height: 40px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .logo {
-    margin-top: 0px;
+  .logo img {
+    height: 30px;
   }
 }
 @media only screen and (max-width: 767px) {
-  .logo {
-    margin-top: 0px;
+  .logo img {
+    height: 30px;
   }
 }
 
