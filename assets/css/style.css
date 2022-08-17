@@ -3874,7 +3874,7 @@ textarea:focus {
   position: relative;
 }
 .admission-title h2 {
-  color: #fff;
+  color: #333;
   font-size: 60px;
   font-weight: bold;
   line-height: 1;
@@ -3892,9 +3892,9 @@ textarea:focus {
 }
 .admission-title p {
   line-height: 26px;
-  color: #fff;
+  color: #333;
   margin: 23px auto 32px;
-  width: 60%;
+  /* width: 60%; */
   font-size: 16px;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -5317,10 +5317,10 @@ textarea:focus {
 }
 
 /*--------- 12. footer area ---------*/
-.footer-top.default-overlay:before {
+/* .footer-top.default-overlay:before {
   background-color: #003502;
   opacity: 0.89;
-}
+} */
 
 @media only screen and (max-width: 767px) {
   .footer-top.pb-80 {
@@ -5550,7 +5550,7 @@ textarea:focus {
     display: flex;
   }
 }
-.footer-menu-social .footer-social:before {
+/* .footer-menu-social .footer-social:before {
   position: absolute;
   left: -16px;
   content: "";
@@ -5558,13 +5558,12 @@ textarea:focus {
   background-color: #00ff00;
   width: 1px;
   top: 7px;
-  display: none;
 }
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   .footer-menu-social .footer-social:before {
     display: none;
   }
-}
+} */
 .footer-menu-social .footer-social ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -9743,4 +9742,8 @@ h3.cart-page-title {
   button:hover {
   background-color: #333;
   color: #fff;
+}
+
+.course-img img {
+  height: 250px;
 }
